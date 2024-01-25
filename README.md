@@ -5,7 +5,7 @@
 
 El presente informe de Practicas Preprofesionales corresponde a la pasantía de investigación realizada entre los meses de Febrero y Mayo del 2023 en el laboratorio de Earth and Atmospheric Sciences en la Universidad de Alberta, en la provincia de Alberta en Canadá.
 
-![uoa](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/uoa.jpeg| width= 100)
+![uoa](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/uoa.jpeg)
 
 ![eas](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/eas.jpeg)
 
