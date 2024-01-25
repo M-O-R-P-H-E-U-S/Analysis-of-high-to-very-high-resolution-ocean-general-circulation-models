@@ -55,11 +55,11 @@ Ilustración del espacio de ANHA4.
 
 ### Objetivos
 
-1. item 1 Estudiar los experimentos preliminares ANHA4-ELGISF003 y ANHA4-ELG019 en la configuracion ANHA4. 
+1.  Estudiar los experimentos preliminares ANHA4-ELGISF003 y ANHA4-ELG019 en la configuracion ANHA4. 
     
-2. item 2 Entender los procesos oceanográficos en las regiones de Groenlandia, Mar Labrado y el Estrecho de Davis.
+2.  Entender los procesos oceanográficos en las regiones de Groenlandia, Mar Labrado y el Estrecho de Davis.
 
-3. item 3 Analizar la dinámica de la circulación oceánica en latitudes altas, con las variables de presión, temperatura y salinidad. Estudiar el impacto de las corrientes marinas en latitudes altas.
+3.  Analizar la dinámica de la circulación oceánica en latitudes altas, con las variables de presión, temperatura y salinidad. Estudiar el impacto de las corrientes marinas en latitudes altas.
 
 ## Fundamento teórico
 
