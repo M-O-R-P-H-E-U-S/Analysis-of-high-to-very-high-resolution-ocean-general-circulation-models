@@ -166,14 +166,11 @@ Groenlandia, ubicada en la zona nororiental de América del Norte, es una isla e
 
 El estrecho de Davis se presenta como una impresionante vía marítima, extendiéndose entre la pintoresca costa occidental de Groenlandia y la majestuosa costa oriental de la isla de Baffin, la más grande del archipiélago ártico canadiense.
 
-
 ![mar_labrador](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/mar_labrador.jpeg)
 
 ![cabo_farewell](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/cabo_farewell.jpeg)
 
 (a)Ubicación del Mar Labrador referente a Groenlandia. (b) Ubicación del Cabo Farewell referente a Groenlandia.
-
-
 
 ![groenlandia](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/groenlandia.jpeg)
 
@@ -182,19 +179,6 @@ El estrecho de Davis se presenta como una impresionante vía marítima, extendi�
 (a)Ubicación de Groenlandia. (b) Estrecho de Davis referente a Groenlandia.
 
 La corriente marina fría del Labrador se desplaza con gracia a través del Estrecho hacia el sur, bordeando la escarpada costa de la isla de Baffin y llevando consigo fragmentos de hielo durante la mayor parte del año. En un fascinante contraste, una corriente cálida derivada de la corriente del Golfo se desplaza hacia el norte a lo largo de la majestuosa costa de Groenlandia, dominando la región que engloba las travesías marítimas clave del Estrecho.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Experimentos y resultados
 
@@ -207,15 +191,10 @@ Núcleo para la modelización europea del océano.
 
 Para cada uno de los trabajos se tuvo en cuenta los experimentos ANHA4-ELGISF003 y ANHA4-ELG019. Cuyos datos fueron recogidos desde el servidor SSH de wessex.
 
-
-\begin{itemize}
-    \item I: Un experimento de control con derretimiento de Groenlandia agregado en la superficie.\\
+1. I: Un experimento de control con derretimiento de Groenlandia agregado en la superficie.\\
     /mnt/storage6/myers/NEMO/ANHA4-ELG019
-    \item II: Un experimento con un porcentaje de la escorrentía de Groenlandia añadido en profundidad.\\
+2. II: Un experimento con un porcentaje de la escorrentía de Groenlandia añadido en profundidad.\\
     /mnt/storage6/myers/NEMO/ANHA4-ELGISF003
-\end{itemize}
-
-
 
 ### Experimentos
 ### Primer Trabajo
