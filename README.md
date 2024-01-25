@@ -7,7 +7,7 @@ El presente informe de Practicas Preprofesionales corresponde a la pasantía de 
 
 ![uoa|50](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/uoa.jpeg)
 
-![eas](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/eas.jpeg)
+![eas|50](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/eas.jpeg)
 
 En el laboratorio de Earth and Atmospheric Sciences se dedican a simular fenómenos oceanográficos en base a datos recopilados del Mar Labrador, Zona oeste de Groenlandia, Cabo Farewell y Estrecho de Davis. Está localizada en Edmonton, Canadá. Algunos trabajos realizados por el laboratorio son:  \cite{10.1016/j.jmarsys.2019.04.002} \cite{10.1007/s00382-016-3495-7} \cite{10.1007/s10584-012-0576-4} \cite{10.1016/j.ocemod.2017.10.007}\\
 
