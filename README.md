@@ -102,27 +102,17 @@ El término densidad (representado por $\rho$) se ha seleccionado para describir
 
 La circulación general en oceanografía se refiere al movimiento constante y global del agua en los océanos de la Tierra. Esta circulación es impulsada principalmente por fuerzas como el viento, la temperatura y la salinidad. Se pueden identificar dos componentes fundamentales en la circulación general oceánica: la circulación superficial y la circulación profunda.
 
-\begin{itemize}
-    \item \textbf{Circulación Superficial:}
-        \begin{itemize}
-            \item \textbf{Corrientes de Viento:} La formación de estas corrientes se debe a la fricción entre el viento y la superficie del océano. La energía transferida desde el viento hacia el agua provoca el movimiento de las capas superficiales del océano, generando corrientes oceánicas.
-            
-            \item \textbf{Corrientes Ecuatoriales:} 
-            En la región ecuatorial, los vientos alisios impulsan el agua cálida hacia el oeste, dando origen a las corrientes ecuatoriales del este y del oeste.
-        
-            \item \textbf{Corrientes Costeras:} La forma de la costa y la topografía del lecho marino tienen un impacto significativo en la dirección y la velocidad de las corrientes oceánicas en estas áreas.
-    
-        \end{itemize}
+Circulación Superficial:
 
-    \item \textbf{Circulación Profunda:}
-        \begin{itemize}
-            \item \textbf{Corrientes Termohalinas:} La tendencia es que el agua fría y más densa tienda a descender, mientras que el agua más cálida y menos densa tiende a ascender. Este proceso conduce a la formación de corrientes termohalinas que operan a profundidades considerables y pueden extenderse a lo largo de todo el océano.
-            
-            \item \textbf{Cinturones de Corriente Profunda:} Estas corrientes profundas, también denominadas cinturones de transporte termohalino, establecen conexiones entre los océanos y desempeñan un papel fundamental en la redistribución global del calor y los nutrientes.
-    
-        \end{itemize}
-    
-\end{itemize}
+1. Corrientes de Viento: La formación de estas corrientes se debe a la fricción entre el viento y la superficie del océano. La energía transferida desde el viento hacia el agua provoca el movimiento de las capas superficiales del océano, generando corrientes oceánicas.
+2. Corrientes Ecuatoriales: En la región ecuatorial, los vientos alisios impulsan el agua cálida hacia el oeste, dando origen a las corrientes ecuatoriales del este y del oeste.
+3. Corrientes Costeras: La forma de la costa y la topografía del lecho marino tienen un impacto significativo en la dirección y la velocidad de las corrientes oceánicas en estas áreas.
+
+Circulación Profunda:
+
+1. Corrientes Termohalinas: La tendencia es que el agua fría y más densa tienda a descender, mientras que el agua más cálida y menos densa tiende a ascender. Este proceso conduce a la formación de corrientes termohalinas que operan a profundidades considerables y pueden extenderse a lo largo de todo el océano.
+
+2. Cinturones de Corriente Profunda: Estas corrientes profundas, también denominadas cinturones de transporte termohalino, establecen conexiones entre los océanos y desempeñan un papel fundamental en la redistribución global del calor y los nutrientes.
 
 La circulación general oceánica juega un papel clave en la regulación del clima global al transportar calor por todo el planeta y afecta la vida marina al influir en la distribución de nutrientes y la mezcla del agua. 
 
