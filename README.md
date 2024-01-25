@@ -19,18 +19,7 @@ La configuración ANHA posee una resolución de 1/4 de grado, denominada ANHA4. 
 
 
 ![grid](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/grid.jpeg)
-
-
-
-
-
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.45]{imagenes/grid.jpeg}
-    \caption{Regiones sobre el espacio de ANHA4, SPG12 and LS60.}
-    \label{Malla_ANHA4}
-\end{figure}
+Regiones sobre el espacio de ANHA4, SPG12 and LS60.
 
 ANHA4 es una configuración regional de baja resolución que desempeña un papel crucial al proporcionarnos simulaciones eficientes y de bajo costo computacional que se centran en modelar remolinos o giros oceánicos. La baja resolución se refiere a la desratización de la cuadrícula espacial, donde la información se agrupa en regiones más grandes, lo que resulta en un menor consumo de recursos computacionales.\\
 
@@ -55,7 +44,7 @@ ANHA4 ha demostrado ser extremadamente productivo en nuestro contexto de investi
 
 
 
-##Antecedentes
+## Antecedentes
 En las últimas décadas, la capa de hielo de Groenlandia ha experimentado un fenómeno alarmante de pérdida de masa, como se evidencia en el estudio científico referenciado \parencite{10.1038/nature12854}. Este proceso, impulsado principalmente por el aumento del derretimiento superficial y la descarga acelerada de glaciares, ha generado un flujo creciente de agua dulce hacia el océano Atlántico subartico.\\
 
 La magnitud de esta pérdida de masa tiene un papel crucial en la alteración del balance de agua dulce en la región. A medida que aumenta el flujo de agua dulce desde Groenlandia hacia el océano, se presenta una serie de impactos significativos. Este flujo continuo de agua dulce puede afectar de manera directa la salinidad del océano Atlántico subartico, con posibles consecuencias para la circulación oceánica regional. \parencite{10.1007/978-1-4020-6774-7_29}\\
@@ -76,12 +65,9 @@ Diversos factores están en juego para explicar este deterioro acelerado de la C
 
 La variabilidad oceánica es otra variable clave en este proceso. Cambios en las corrientes oceánicas y en la distribución del calor en el Atlántico Norte subpolar han generado condiciones propicias para el derretimiento y la retirada de los glaciares de la GrIS. El aumento del contenido de calor en estas regiones contribuye a debilitar la estabilidad de la capa de hielo, acelerando así su pérdida de masa.\parencite{10.1029/2022JC018404}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.45]{imagenes/intro_1.jpeg}
-    \caption{Ilustración del espacio de ANHA4.}
-    \label{espacio_ANHA}
-\end{figure}
+
+![intro_1](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/intro_1.jpeg)
+Ilustración del espacio de ANHA4.
 
 ### Objetivos
 
@@ -122,18 +108,11 @@ En términos simples, la salinidad se define como la masa total de material disu
 \end{equation*}
 
  donde $S_{ref} = 34.8$
+
+
  
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.35]{imagenes/densidad.jpeg}
-    \caption{Calculo del volumen de agua dulce en base a la salinidad.}
-    \label{densidad}
-\end{figure}
-
-
-
-
-
+![densidad](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/densidad.jpeg)
+Calculo del volumen de agua dulce en base a la salinidad.
 
 ### Temperatura
 
@@ -195,12 +174,11 @@ Por otro lado, las líneas de longitud, también denominadas meridianos, son lí
 
 Utilizar un mapa del mundo con líneas de latitud y longitud es beneficioso para aprender a interpretar las coordenadas geográficas de la Tierra y calcular la distancia entre dos puntos específicos. Ver figura: \ref{mapa_mundi}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.85]{imagenes/mapa_log.jpeg}
-    \caption{Latitudes y longitudes sobre un mapa mundi.}
-    \label{mapa_mundi}
-\end{figure}
+
+
+![mapa_log](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/mapa_log.jpeg)
+
+Latitudes y longitudes sobre un mapa mundi.
 
 ### Corrientes marinas
 
@@ -210,12 +188,9 @@ En términos generales, el concepto de corrientes marinas se aplica al movimient
 
 La compensación no solo ocurre entre la superficie y el fondo submarino, sino también en la propia superficie. Ver figura: \ref{corrientes_marinas}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.7]{imagenes/corrientes.jpeg}
-    \caption{Corrientes marinas en el mundo.}
-    \label{corrientes_marinas}
-\end{figure}
+![corrientes](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/corrientes.jpeg)
+
+Corrientes marinas en el mundo.
 
 ### Series de Tiempo
 
@@ -237,29 +212,20 @@ Groenlandia, ubicada en la zona nororiental de América del Norte, es una isla e
 
 El estrecho de Davis se presenta como una impresionante vía marítima, extendiéndose entre la pintoresca costa occidental de Groenlandia y la majestuosa costa oriental de la isla de Baffin, la más grande del archipiélago ártico canadiense.
 
-\begin{figure}
- \centering
-  \subfloat[Mar labrador]{
-   \label{mar_labrador}
-    \includegraphics[width=0.55\textwidth]{imagenes/mar_labrador.jpeg}}
-  \subfloat[Cabo farewell]{
-   \label{cabo_farewell}
-    \includegraphics[width=0.45\textwidth]{imagenes/cabo_farewell.jpeg}}
- \caption{(a)Ubicación del Mar Labrador referente a Groenlandia. (b) Ubicación del Cabo Farewell referente a Groenlandia.}
- \label{mar_labrador_cabo_farewell}
-\end{figure}
 
-\begin{figure}
- \centering
-  \subfloat[Groenlandia]{
-   \label{groenlandia}
-    \includegraphics[width=0.486\textwidth]{imagenes/groenlandia.jpeg}}
-  \subfloat[Estrecho davis]{
-   \label{estrecho_davis}
-    \includegraphics[width=0.525\textwidth]{imagenes/davis_strait.jpeg}}
- \caption{(a)Ubicación de Groenlandia. (b) Estrecho de Davis referente a Groenlandia.}
- \label{Groenlandia_estrecho_davis}
-\end{figure}
+![mar_labrador](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/mar_labrador.jpeg)
+
+![cabo_farewell](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/cabo_farewell.jpeg)
+
+(a)Ubicación del Mar Labrador referente a Groenlandia. (b) Ubicación del Cabo Farewell referente a Groenlandia.
+
+
+
+![groenlandia](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/groenlandia.jpeg)
+
+![davis_strait](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/davis_strait.jpeg)
+
+(a)Ubicación de Groenlandia. (b) Estrecho de Davis referente a Groenlandia.
 
 La corriente marina fría del Labrador se desplaza con gracia a través del Estrecho hacia el sur, bordeando la escarpada costa de la isla de Baffin y llevando consigo fragmentos de hielo durante la mayor parte del año. En un fascinante contraste, una corriente cálida derivada de la corriente del Golfo se desplaza hacia el norte a lo largo de la majestuosa costa de Groenlandia, dominando la región que engloba las travesías marítimas clave del Estrecho.
 
