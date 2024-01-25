@@ -291,19 +291,18 @@ Gráfica de Series de Tiempo para la Temperatura de  todos los meses del año pa
 
 
 
-\chapter{Conclusiones}
+## Conclusiones
 
 
-\begin{itemize}
-    \item Para el experimento ANHA4-ELGISF003, las temperaturas mas bajas (-1.6$^{\circ} C$ a 0.2$^{\circ} C$) se tienen en la costa de Groenlandia y en la Bahía de Baffin debido a las corrientes del Labrador y Groenlandia. Ver graficas: \ref{T6}, \ref{T7}, \ref{T8}, \ref{T9}.  Además de mantener las zonas de menor nivel de salinidad(33S a 33.5S). Ver graficas: \ref{S6}, \ref{S7}, \ref{S8}, \ref{S9}.
+1. Para el experimento ANHA4-ELGISF003, las temperaturas mas bajas (-1.6$^{\circ} C$ a 0.2$^{\circ} C$) se tienen en la costa de Groenlandia y en la Bahía de Baffin debido a las corrientes del Labrador y Groenlandia.  Además de mantener las zonas de menor nivel de salinidad(33S a 33.5S).
+   
+3. Para el experimento ANHA4-ELGISF003, las temperaturas mas altas se tienen en el Atlántico Norte debido a la corriente del Atlántico Norte(10.5$^{\circ} C$ a 14$^{\circ} C$). Ademas de mantener las zonas de mayor nivel de salinidad(34.8S a 35.5S).
+   
+5. Para el experimento ANHA4-ELGISF003, se tiene el mayor nivel de salinidad(15S) se tiene a 2245m de profundidad. A la profundidad de 1106m de profundidad se tiene el mayor nivel de temperatura 1.223$^{\circ} C$.
 
-    \item Para el experimento ANHA4-ELGISF003, las temperaturas mas altas se tienen en el Atlántico Norte debido a la corriente del Atlántico Norte(10.5$^{\circ} C$ a 14$^{\circ} C$). Ver graficas: \ref{T6}, \ref{T7}, \ref{T8}, \ref{T9}. Ademas de mantener las zonas de mayor nivel de salinidad(34.8S a 35.5S). Ver graficas: \ref{S6}, \ref{S7}, \ref{S8}, \ref{S9}.
-    
-    \item Para el experimento ANHA4-ELGISF003, se tiene el mayor nivel de salinidad(15S) se tiene a 2245m de profundidad. A la profundidad de 1106m de profundidad se tiene el mayor nivel de temperatura 1.223$^{\circ} C$. Ver graficas: \ref{deepth_S_03}, \ref{deepth_T_03}.
+7. Para el experimento ANHA4-ELG019, se tiene el mayor nivel de salinidad(15S) se tiene a 2241m de profundidad. A la profundidad de 1066m de profundidad se tiene el mayor nivel de temperatura 1.230$^{\circ} C$.
 
-    \item Para el experimento ANHA4-ELG019, se tiene el mayor nivel de salinidad(15S) se tiene a 2241m de profundidad. A la profundidad de 1066m de profundidad se tiene el mayor nivel de temperatura 1.230$^{\circ} C$. Ver graficas: \ref{deepth_S_19}, \ref{deepth_T_19}
+9. En el periodo (2002-2017) se muestran los máximos y mínimos de la salinidad y temperatura, estos picos se deben a las estaciones de verano e invierno. Dichas gráficas presentan un comportamiento oscilatorio debido a la periodicidad del clima durante el año.
 
-    \item En el periodo (2002-2017) se muestran los máximos y mínimos de la salinidad y temperatura, estos picos se deben a las estaciones de verano e invierno. Dichas gráficas presentan un comportamiento oscilatorio debido a la periodicidad del clima durante el año. Ver graficas: \ref{ST_Salinity}, \ref{ST_Temperature}.
 
-\end{itemize}
 
