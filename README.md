@@ -9,11 +9,11 @@ El presente informe de Practicas Preprofesionales corresponde a la pasantía de 
 
 ![eas](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/eas.jpeg)
 
-En el laboratorio de Earth and Atmospheric Sciences se dedican a simular fenómenos oceanográficos en base a datos recopilados del Mar Labrador, Zona oeste de Groenlandia, Cabo Farewell y Estrecho de Davis. Está localizada en Edmonton, Canadá.\\
+En el laboratorio de Earth and Atmospheric Sciences se dedican a simular fenómenos oceanográficos en base a datos recopilados del Mar Labrador, Zona oeste de Groenlandia, Cabo Farewell y Estrecho de Davis. Está localizada en Edmonton, Canadá.
 
-En el laboratorio se trabajan con múltiples configuraciones sobre las que estan realizando investigaciones: ANHA4, eORCA025, ANHA12, SPG12, LAB60, ARC60 y ANHA2.\\
+En el laboratorio se trabajan con múltiples configuraciones sobre las que estan realizando investigaciones: ANHA4, eORCA025, ANHA12, SPG12, LAB60, ARC60 y ANHA2.
 
-En el presente trabajo se utilizo la configuración ANHA, que corresponde a la configuración Ártica y Atlántica del Hemisferio Norte en el modelo NEMO, abarca extensivamente el Océano Ártico, el Atlántico Norte y una parte del Atlántico Sur. Sus límites se extienden desde el Estrecho de Bering en el Ártico hasta los 20 grados de latitud sur en el Océano Atlántico Sur. ANHA se concibió como una versión más enfocada de la red global ORCA, permitiéndonos realizar investigaciones y desarrollos con una utilización más eficiente de recursos informáticos, incluyendo RAM y tiempo de CPU.\\
+En el presente trabajo se utilizo la configuración ANHA, que corresponde a la configuración Ártica y Atlántica del Hemisferio Norte en el modelo NEMO, abarca extensivamente el Océano Ártico, el Atlántico Norte y una parte del Atlántico Sur. Sus límites se extienden desde el Estrecho de Bering en el Ártico hasta los 20 grados de latitud sur en el Océano Atlántico Sur. ANHA se concibió como una versión más enfocada de la red global ORCA, permitiéndonos realizar investigaciones y desarrollos con una utilización más eficiente de recursos informáticos, incluyendo RAM y tiempo de CPU.
 
 La configuración ANHA posee una resolución de 1/4 de grado, denominada ANHA4. Esta resolución específica es crucial para nuestras investigaciones, ya que nos permite alcanzar nuestros objetivos con mayor precisión y utilizando menos recursos computacionales. La elección de esta resolución específica está respaldada por la necesidad de equilibrar la representación detallada de fenómenos oceanográficos cruciales con la eficiencia en el procesamiento de datos.
 
@@ -21,49 +21,33 @@ La configuración ANHA posee una resolución de 1/4 de grado, denominada ANHA4. 
 ![grid](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/grid.jpeg)
 Regiones sobre el espacio de ANHA4, SPG12 and LS60.
 
-ANHA4 es una configuración regional de baja resolución que desempeña un papel crucial al proporcionarnos simulaciones eficientes y de bajo costo computacional que se centran en modelar remolinos o giros oceánicos. La baja resolución se refiere a la desratización de la cuadrícula espacial, donde la información se agrupa en regiones más grandes, lo que resulta en un menor consumo de recursos computacionales.\\
+ANHA4 es una configuración regional de baja resolución que desempeña un papel crucial al proporcionarnos simulaciones eficientes y de bajo costo computacional que se centran en modelar remolinos o giros oceánicos. La baja resolución se refiere a la desratización de la cuadrícula espacial, donde la información se agrupa en regiones más grandes, lo que resulta en un menor consumo de recursos computacionales.
 
-Esta configuración se destaca especialmente en estudios de sensibilidad, ya que nos permite llevar a cabo simulaciones que abarcan varias décadas en un período relativamente corto, aproximadamente un mes. Este enfoque nos brinda la capacidad de explorar y entender de manera eficiente cómo diferentes variables y factores afectan el comportamiento oceánico a lo largo del tiempo.\\
+Esta configuración se destaca especialmente en estudios de sensibilidad, ya que nos permite llevar a cabo simulaciones que abarcan varias décadas en un período relativamente corto, aproximadamente un mes. Este enfoque nos brinda la capacidad de explorar y entender de manera eficiente cómo diferentes variables y factores afectan el comportamiento oceánico a lo largo del tiempo.
 
 ANHA4 ha demostrado ser extremadamente productivo en nuestro contexto de investigación y desarrollo. Su rapidez en las simulaciones nos facilita realizar pruebas exhaustivas de nuevos modelos o ajustes de parámetros, así como evaluar sistemas acoplados. Este nivel de eficiencia impulsa significativamente nuestra capacidad para avanzar en la comprensión de fenómenos oceanográficos complejos y desarrollar modelos más precisos. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Antecedentes
-En las últimas décadas, la capa de hielo de Groenlandia ha experimentado un fenómeno alarmante de pérdida de masa, como se evidencia en el estudio científico referenciado \parencite{10.1038/nature12854}. Este proceso, impulsado principalmente por el aumento del derretimiento superficial y la descarga acelerada de glaciares, ha generado un flujo creciente de agua dulce hacia el océano Atlántico subartico.\\
 
-La magnitud de esta pérdida de masa tiene un papel crucial en la alteración del balance de agua dulce en la región. A medida que aumenta el flujo de agua dulce desde Groenlandia hacia el océano, se presenta una serie de impactos significativos. Este flujo continuo de agua dulce puede afectar de manera directa la salinidad del océano Atlántico subartico, con posibles consecuencias para la circulación oceánica regional. \parencite{10.1007/978-1-4020-6774-7_29}\\
+En las últimas décadas, la capa de hielo de Groenlandia ha experimentado un fenómeno alarmante de pérdida de masa, como se evidencia en el estudio científico referenciado \parencite{10.1038/nature12854}. Este proceso, impulsado principalmente por el aumento del derretimiento superficial y la descarga acelerada de glaciares, ha generado un flujo creciente de agua dulce hacia el océano Atlántico subartico.
 
-La entrada de grandes cantidades de agua dulce en la región del Mar Labrador puede modificar las propiedades térmicas y de salinidad del agua  \parencite{10.1029/2007GL030419}, alterando así los patrones de convección impactando en la fauna y flora marina \parencite{10.1016/j.ecolind.2018.08.053}. Esta convección profunda es esencial para la circulación oceánica global, y su perturbación podría tener repercusiones en la circulación de vuelco meridional del Atlántico, un componente crucial del sistema climático global.\parencite{10.1029/2019JC015065}\\
+La magnitud de esta pérdida de masa tiene un papel crucial en la alteración del balance de agua dulce en la región. A medida que aumenta el flujo de agua dulce desde Groenlandia hacia el océano, se presenta una serie de impactos significativos. Este flujo continuo de agua dulce puede afectar de manera directa la salinidad del océano Atlántico subartico, con posibles consecuencias para la circulación oceánica regional.
 
-El efecto de los aumentados flujos de agua dulce indica que la entrada de agua procedente del deshielo en la plataforma occidental de Groenlandia está dando lugar a una tendencia gradual de enfriamiento en la superficie del mar de Labrador. Aunque, en la actualidad, este enfriamiento es de magnitud inferior en comparación con la variabilidad asociada a eventos esporádicos de "grandes anomalías de salinidad", se prevé que la acumulación continua de agua de deshielo posee el potencial de reducir de manera progresiva la convección invernal profunda.\\
+La entrada de grandes cantidades de agua dulce en la región del Mar Labrador puede modificar las propiedades térmicas y de salinidad del agua, alterando así los patrones de convección impactando en la fauna y flora marina. Esta convección profunda es esencial para la circulación oceánica global, y su perturbación podría tener repercusiones en la circulación de vuelco meridional del Atlántico, un componente crucial del sistema climático global.
 
-A pesar de estos cambios, se concluye que la anomalía de agua dulce aún no ha tenido un impacto significativo en la circulación de vuelco meridional del Atlántico.\\
+El efecto de los aumentados flujos de agua dulce indica que la entrada de agua procedente del deshielo en la plataforma occidental de Groenlandia está dando lugar a una tendencia gradual de enfriamiento en la superficie del mar de Labrador. Aunque, en la actualidad, este enfriamiento es de magnitud inferior en comparación con la variabilidad asociada a eventos esporádicos de "grandes anomalías de salinidad", se prevé que la acumulación continua de agua de deshielo posee el potencial de reducir de manera progresiva la convección invernal profunda.
 
-La interacción entre la capa de hielo de Groenlandia (GrIS) y el océano Atlántico Norte subartico  \parencite{10.1029/2019JC015144}, así como los impactos de la pérdida de masa de la GrIS en el nivel del mar.  \parencite{10.1002/2016GL070969}  dan lugar a trayectorias y destinos del agua dulce proveniente del deshielo de Groenlandia, destacándose diferencias notables entre las áreas occidental y oriental de la isla. Se observa que el agua dulce del GrIS occidental tiende a acumularse en la bahía de Baffin antes de dirigirse al sur por la plataforma de Labrador, mientras que el agua dulce del GrIS oriental principalmente contribuye a la convección profunda en el mar de Labrador. \parencite{10.1002/2015GL064626}\\
+A pesar de estos cambios, se concluye que la anomalía de agua dulce aún no ha tenido un impacto significativo en la circulación de vuelco meridional del Atlántico.
 
-La interacción entre los glaciares que desembocan en el mar de Groenlandia y el océano. Se revela que tanto las aguas polares como atlánticas influyen cerca de todos los glaciares, señalando la participación del Ártico y del Atlántico en este entorno. La entrada de agua atlántica y la descarga subglacial son evidentes en los resultados, sugiriendo la influencia de estos factores en el derretimiento de los glaciares submarinos.\\
+La interacción entre la capa de hielo de Groenlandia (GrIS) y el océano Atlántico Norte subartico, así como los impactos de la pérdida de masa de la GrIS en el nivel del mar, dan lugar a trayectorias y destinos del agua dulce proveniente del deshielo de Groenlandia, destacándose diferencias notables entre las áreas occidental y oriental de la isla. Se observa que el agua dulce del GrIS occidental tiende a acumularse en la bahía de Baffin antes de dirigirse al sur por la plataforma de Labrador, mientras que el agua dulce del GrIS oriental principalmente contribuye a la convección profunda en el mar de Labrador.
 
-La contribución significativa de la Capa de Hielo de Groenlandia (GrIS) al aumento del nivel del mar es un fenómeno que ha experimentado un preocupante incremento en las últimas dos décadas. Este aumento se atribuye en parte al fenómeno de derretimiento submarino, que ha provocado la retirada acelerada de los glaciares de salida. \parencite{10.1038/ngeo2740}\\
+La interacción entre los glaciares que desembocan en el mar de Groenlandia y el océano. Se revela que tanto las aguas polares como atlánticas influyen cerca de todos los glaciares, señalando la participación del Ártico y del Atlántico en este entorno. La entrada de agua atlántica y la descarga subglacial son evidentes en los resultados, sugiriendo la influencia de estos factores en el derretimiento de los glaciares submarinos.
 
-Diversos factores están en juego para explicar este deterioro acelerado de la Capa de Hielo de Groenlandia (GrIS). La entrada de aguas subtropicales en la región juega un papel crucial al introducir temperaturas más cálidas, contribuyendo directamente al derretimiento del hielo. Además, cambios en las condiciones atmosféricas, como patrones de viento y temperatura, también están vinculados a este fenómeno, creando un entorno propicio para el aumento del derretimiento superficial.\\
+La contribución significativa de la Capa de Hielo de Groenlandia (GrIS) al aumento del nivel del mar es un fenómeno que ha experimentado un preocupante incremento en las últimas dos décadas. Este aumento se atribuye en parte al fenómeno de derretimiento submarino, que ha provocado la retirada acelerada de los glaciares de salida.
 
-La variabilidad oceánica es otra variable clave en este proceso. Cambios en las corrientes oceánicas y en la distribución del calor en el Atlántico Norte subpolar han generado condiciones propicias para el derretimiento y la retirada de los glaciares de la GrIS. El aumento del contenido de calor en estas regiones contribuye a debilitar la estabilidad de la capa de hielo, acelerando así su pérdida de masa.\parencite{10.1029/2022JC018404}
+Diversos factores están en juego para explicar este deterioro acelerado de la Capa de Hielo de Groenlandia (GrIS). La entrada de aguas subtropicales en la región juega un papel crucial al introducir temperaturas más cálidas, contribuyendo directamente al derretimiento del hielo. Además, cambios en las condiciones atmosféricas, como patrones de viento y temperatura, también están vinculados a este fenómeno, creando un entorno propicio para el aumento del derretimiento superficial.
+
+La variabilidad oceánica es otra variable clave en este proceso. Cambios en las corrientes oceánicas y en la distribución del calor en el Atlántico Norte subpolar han generado condiciones propicias para el derretimiento y la retirada de los glaciares de la GrIS. El aumento del contenido de calor en estas regiones contribuye a debilitar la estabilidad de la capa de hielo, acelerando así su pérdida de masa.
 
 
 ![intro_1](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/intro_1.jpeg)
@@ -78,16 +62,6 @@ Ilustración del espacio de ANHA4.
 
     \item Analizar la dinámica de la circulación oceánica en latitudes altas, con las variables de presión, temperatura y salinidad. Estudiar el impacto de las corrientes marinas en latitudes altas.
 \end{enumerate}
-
-
-
-
-
-
-
-
-
-
 
 ## Fundamento teórico
 
@@ -108,8 +82,6 @@ En términos simples, la salinidad se define como la masa total de material disu
 \end{equation*}
 
  donde $S_{ref} = 34.8$
-
-
  
 ![densidad](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/densidad.jpeg)
 Calculo del volumen de agua dulce en base a la salinidad.
