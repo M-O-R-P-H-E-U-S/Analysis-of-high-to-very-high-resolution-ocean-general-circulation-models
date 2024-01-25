@@ -248,14 +248,11 @@ La corriente marina fría del Labrador se desplaza con gracia a través del Estr
 
 El "Núcleo para la modelización europea del océano" (NEMO) representa un avanzado marco de modelización que se emplea en diversas actividades de investigación y servicios de predicción en los campos de ciencias oceánicas y climáticas. Este sistema innovador es fruto de la colaboración de un consorcio europeo, cuyo propósito es asegurar la confiabilidad y sostenibilidad a largo plazo de NEMO. Su desarrollo se centra en proporcionar herramientas precisas y eficientes para entender y prever los fenómenos oceánicos y climáticos, contribuyendo así al avance del conocimiento científico.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.35]{imagenes/nemo.jpeg}
-    \caption{Núcleo para la modelización europea del océano.}
-    \label{nemo}
-\end{figure}
+![nemo](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/nemo.jpeg)
+Núcleo para la modelización europea del océano.
 
 Para cada uno de los trabajos se tuvo en cuenta los experimentos ANHA4-ELGISF003 y ANHA4-ELG019. Cuyos datos fueron recogidos desde el servidor SSH de wessex.
+
 
 \begin{itemize}
     \item I: Un experimento de control con derretimiento de Groenlandia agregado en la superficie.\\
@@ -279,12 +276,10 @@ Trazar las secciones transversales de salinidad y temperatura a lo largo de la c
 
 Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ con dominio vertical = $[0 \hspace{0.3cm} 75], [0 \hspace{0.3cm} 1]$, calculándose el valor temperatura y salinidad de cada capa entre 0 - 6000m para el periodo de verano desde 2002 a 2017. Vease el codigo en  \ref{Anexo_2}.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.5]{imagenes/level_pre.jpeg}
-    \caption{Niveles de profundidad en ANHA4.}
-    \label{niveles_profundidad}
-\end{figure}
+
+![level_pre](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/level_pre.jpeg)
+Niveles de profundidad en ANHA4.
+
 
 
 ### Tercer Trabajo
@@ -297,19 +292,13 @@ Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05
 
 ### Primer Trabajo
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/S6}
-    \caption{Salinidad promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{S6}
-\end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.28]{imagenes/T6}
-    \caption{Temperatura promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{T6}
-\end{figure}
+![S6](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S6.png)
+Salinidad promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
+
+![T6](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T6.png)
+Temperatura promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
+
 
 \begin{figure}[h!]
     \centering
