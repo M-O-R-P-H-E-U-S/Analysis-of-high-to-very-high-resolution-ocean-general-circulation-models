@@ -73,12 +73,11 @@ El agua cuenta con propiedades físicas como la salinidad (s), temperatura (T) y
 
 ### Salinidad
 
-La salinidad, medida en gramos por kilogramo de agua de mar, indica la cantidad total de material disuelto representa la concentración global de sales disueltas, integrando la contribución combinada de iones en el agua de mar.\\
+La salinidad, medida en gramos por kilogramo de agua de mar, indica la cantidad total de material disuelto representa la concentración global de sales disueltas, integrando la contribución combinada de iones en el agua de mar.
 
 En términos simples, la salinidad se define como la masa total de material disuelto en una unidad de masa de agua de mar.
 
-
-V_{ad} = \dfrac{S_{ref} - S}{S_{ref}} V
+$V_{ad} = \dfrac{S_{ref} - S}{S_{ref}} V$
 
  donde $S_{ref} = 34.8$
  
@@ -87,7 +86,7 @@ Calculo del volumen de agua dulce en base a la salinidad.
 
 ### Temperatura
 
-La temperatura de un cuerpo es la medida de su estado térmico, vinculado a la energía cinética de sus moléculas constituyentes. Esta energía cinética, es la temperatura del cuerpo, que también se denomina calor. Así, la temperatura no solo señala el nivel térmico, sino que también actúa como un indicador preciso de la cantidad de energía en forma de calor que el cuerpo alberga.\\
+La temperatura de un cuerpo es la medida de su estado térmico, vinculado a la energía cinética de sus moléculas constituyentes. Esta energía cinética, es la temperatura del cuerpo, que también se denomina calor. Así, la temperatura no solo señala el nivel térmico, sino que también actúa como un indicador preciso de la cantidad de energía en forma de calor que el cuerpo alberga.
 
 La temperatura, representada por T, se presenta como una variable termodinámica de suma importancia en la investigación del agua de mar, siendo objeto de mediciones a lo largo de varios siglos. Incluso en el siglo XVIII, los científicos suministraban a los capitanes de barcos termómetros especializados para medir con precisión las temperaturas del subsuelo. En la actualidad, es una práctica común en oceanografía expresar la temperatura en función de la diferencia entre la temperatura absoluta y 273,15 K, que corresponde al punto de congelación del agua. Esta representación termodinámica de la temperatura se conoce como temperatura Celsius, con el símbolo $^{\circ}C$.
 
@@ -95,9 +94,7 @@ La temperatura, representada por T, se presenta como una variable termodinámica
 
 La presión, es la fuerza aplicada por unidad de área, se cuantifica en el Sistema Internacional de Unidades (SI) en Pascals (Pa), equivalente a Newton por metro cuadrado (N/$m^{2}$). En el contexto del agua de mar, la presión marina se erige como una variable termodinámica fundamental. Se refiere a la fuerza neta ejercida por un gradiente de presión sobre una porción de agua. En oceanografía, la medida de presión más comúnmente empleada es la presión del mar, simbolizada como P, que representa la presión real descontando una atmósfera estándar (aproximadamente 101,325 Pa).
 
-\begin{equation}
-    \dfrac{\partial P}{\partial z} = - \rho g
-\end{equation}
+$\dfrac{\partial P}{\partial z} = - \rho g$
 
 ### Densidad
 
@@ -137,15 +134,13 @@ La escorrentía es el movimiento del agua sobre la superficie del suelo. Este pr
 
 ### Mapamundi con longitud y latitud
 
-Las líneas de latitud y longitud son representaciones imaginarias utilizadas para indicar las coordenadas geográficas en un mapa.\\
+Las líneas de latitud y longitud son representaciones imaginarias utilizadas para indicar las coordenadas geográficas en un mapa.
 
-Las líneas de latitud, también conocidas como paralelas, son líneas horizontales imaginarias que circundan la Tierra. Se miden en grados, con el Ecuador ubicado a $0^{\circ}$ de latitud y los Polos Norte y Sur a $90^{\circ}$ de latitud. Estas líneas corren paralelas entre sí.\\
+Las líneas de latitud, también conocidas como paralelas, son líneas horizontales imaginarias que circundan la Tierra. Se miden en grados, con el Ecuador ubicado a $0^{\circ}$ de latitud y los Polos Norte y Sur a $90^{\circ}$ de latitud. Estas líneas corren paralelas entre sí.
 
-Por otro lado, las líneas de longitud, también denominadas meridianos, son líneas verticales imaginarias que atraviesan la Tierra desde el Polo Norte hasta el Polo Sur. Estos meridianos van del Polo Norte al Polo Sur.\\
+Por otro lado, las líneas de longitud, también denominadas meridianos, son líneas verticales imaginarias que atraviesan la Tierra desde el Polo Norte hasta el Polo Sur. Estos meridianos van del Polo Norte al Polo Sur.
 
-Utilizar un mapa del mundo con líneas de latitud y longitud es beneficioso para aprender a interpretar las coordenadas geográficas de la Tierra y calcular la distancia entre dos puntos específicos. Ver figura: \ref{mapa_mundi}
-
-
+Utilizar un mapa del mundo con líneas de latitud y longitud es beneficioso para aprender a interpretar las coordenadas geográficas de la Tierra y calcular la distancia entre dos puntos específicos.
 
 ![mapa_log](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/mapa_log.jpeg)
 
