@@ -52,9 +52,7 @@ ANHA4 ha demostrado ser extremadamente productivo en nuestro contexto de investi
 
 
 
-\chapter{Antecedentes}
-%\section{Concepto de imagen hiperespectral}
-
+##Antecedentes
 En las últimas décadas, la capa de hielo de Groenlandia ha experimentado un fenómeno alarmante de pérdida de masa, como se evidencia en el estudio científico referenciado \parencite{10.1038/nature12854}. Este proceso, impulsado principalmente por el aumento del derretimiento superficial y la descarga acelerada de glaciares, ha generado un flujo creciente de agua dulce hacia el océano Atlántico subartico.\\
 
 La magnitud de esta pérdida de masa tiene un papel crucial en la alteración del balance de agua dulce en la región. A medida que aumenta el flujo de agua dulce desde Groenlandia hacia el océano, se presenta una serie de impactos significativos. Este flujo continuo de agua dulce puede afectar de manera directa la salinidad del océano Atlántico subartico, con posibles consecuencias para la circulación oceánica regional. \parencite{10.1007/978-1-4020-6774-7_29}\\
@@ -82,7 +80,7 @@ La variabilidad oceánica es otra variable clave en este proceso. Cambios en las
     \label{espacio_ANHA}
 \end{figure}
 
-\section{Objetivos}
+### Objetivos
 
 \begin{enumerate}
     \item Estudiar los experimentos preliminares ANHA4-ELGISF003 y ANHA4-ELG019 en la configuracion ANHA4. 
@@ -102,15 +100,15 @@ La variabilidad oceánica es otra variable clave en este proceso. Cambios en las
 
 
 
-\chapter{Fundamento teórico}
+## Fundamento teórico
 
 La oceanografía consiste en el estudio detallado de las propiedades geológicas, biológicas, físicas y químicas de los océanos. Cuyo propósito es estudiar los procesos que tienen lugar en los mares y océanos, además de comprender la interacción de estos con el entorno circundante, como la atmósfera, la corteza terrestre, tanto por encima como por debajo del nivel del mar.
 
-\subsection{Propiedades físicas del agua}
+### Propiedades físicas del agua
 
 El agua cuenta con propiedades físicas como la salinidad (s), temperatura (T) y presión (p), sus efectos sobre el comportamiento físico del agua han sido ampliamente estudiados. Sin embargo, para una mejor descripción del comportamiento físico del agua de mar, es esencial tener en cuenta otros factores, como burbujas de aire, partículas orgánicas e inorgánicas, cuyo impacto en las propiedades físicas del agua resulta difícil de cuantificar con exactitud.
 
-\subsubsection{Salinidad}
+### Salinidad
 
 La salinidad, medida en gramos por kilogramo de agua de mar, indica la cantidad total de material disuelto representa la concentración global de sales disueltas, integrando la contribución combinada de iones en el agua de mar.\\
 
@@ -134,13 +132,13 @@ En términos simples, la salinidad se define como la masa total de material disu
 
 
 
-\subsubsection{Temperatura}
+### Temperatura
 
 La temperatura de un cuerpo es la medida de su estado térmico, vinculado a la energía cinética de sus moléculas constituyentes. Esta energía cinética, es la temperatura del cuerpo, que también se denomina calor. Así, la temperatura no solo señala el nivel térmico, sino que también actúa como un indicador preciso de la cantidad de energía en forma de calor que el cuerpo alberga.\\
 
 La temperatura, representada por T, se presenta como una variable termodinámica de suma importancia en la investigación del agua de mar, siendo objeto de mediciones a lo largo de varios siglos. Incluso en el siglo XVIII, los científicos suministraban a los capitanes de barcos termómetros especializados para medir con precisión las temperaturas del subsuelo. En la actualidad, es una práctica común en oceanografía expresar la temperatura en función de la diferencia entre la temperatura absoluta y 273,15 K, que corresponde al punto de congelación del agua. Esta representación termodinámica de la temperatura se conoce como temperatura Celsius, con el símbolo $^{\circ}C$.
 
-\subsubsection{Presión}
+### Presión
 
 La presión, es la fuerza aplicada por unidad de área, se cuantifica en el Sistema Internacional de Unidades (SI) en Pascals (Pa), equivalente a Newton por metro cuadrado (N/$m^{2}$). En el contexto del agua de mar, la presión marina se erige como una variable termodinámica fundamental. Se refiere a la fuerza neta ejercida por un gradiente de presión sobre una porción de agua. En oceanografía, la medida de presión más comúnmente empleada es la presión del mar, simbolizada como P, que representa la presión real descontando una atmósfera estándar (aproximadamente 101,325 Pa).
 
@@ -148,11 +146,11 @@ La presión, es la fuerza aplicada por unidad de área, se cuantifica en el Sist
     \dfrac{\partial P}{\partial z} = - \rho g
 \end{equation}
 
-\subsubsection{Densidad}
+### Densidad
 
 El término densidad (representado por $\rho$) se ha seleccionado para describir la cantidad de masa por unidad de volumen. En el contexto del agua de mar, los gradientes meridionales de densidad son considerados impulsores del Transporte Termohalino (THC). El aumento de la densidad en la superficie del mar, derivado de la pérdida de calor a la atmósfera o la evaporación, puede provocar una estratificación estática inestable, con el agua más densa en la parte superior.
 
-\subsubsection{Circulación general oceánica}
+### Circulación general oceánica
 
 La circulación general en oceanografía se refiere al movimiento constante y global del agua en los océanos de la Tierra. Esta circulación es impulsada principalmente por fuerzas como el viento, la temperatura y la salinidad. Se pueden identificar dos componentes fundamentales en la circulación general oceánica: la circulación superficial y la circulación profunda.
 
@@ -180,11 +178,11 @@ La circulación general en oceanografía se refiere al movimiento constante y gl
 
 La circulación general oceánica juega un papel clave en la regulación del clima global al transportar calor por todo el planeta y afecta la vida marina al influir en la distribución de nutrientes y la mezcla del agua. 
 
-\subsubsection{Escorrentía}
+### Escorrentía
 
 La escorrentía es el movimiento del agua sobre la superficie del suelo. Este proceso ocurre cuando la cantidad de agua que alcanza cierta área supera la capacidad de absorción del suelo, ya sea debido a la saturación provocada por fuertes lluvias, la fusión de nieve u otras fuentes de agua.
 
-\subsubsection{Mapamundi con longitud y latitud}
+### Mapamundi con longitud y latitud
 
 Las líneas de latitud y longitud son representaciones imaginarias utilizadas para indicar las coordenadas geográficas en un mapa.\\
 
@@ -201,7 +199,7 @@ Utilizar un mapa del mundo con líneas de latitud y longitud es beneficioso para
     \label{mapa_mundi}
 \end{figure}
 
-\subsubsection{Corrientes marinas}
+### Corrientes marinas
 
 Las corrientes oceánicas, también conocidas como corrientes marinas, constituyen el movimiento de las aguas en los océanos y, en menor medida, en mares más extensos. Su origen se atribuye a diversas causas, destacando el efecto del movimiento de rotación terrestre, que incide de manera distinta en el fondo oceánico y en la superficie.\\
 
@@ -216,23 +214,23 @@ La compensación no solo ocurre entre la superficie y el fondo submarino, sino t
     \label{corrientes_marinas}
 \end{figure}
 
-\subsubsection{Series de Tiempo}
+### Series de Tiempo
 
 Las series temporales se refieren a conjuntos de datos organizados en vectores y recopilados a lo largo del tiempo, generalmente en intervalos regulares. A diferencia de los datos muestreados de manera aleatoria, que son fundamentales en muchos otros análisis de datos, las series temporales representan la evolución en el tiempo de una población o un proceso dinámico. La disposición lineal y secuencial de estos datos les confiere una posición distintiva en el análisis de datos, y su estudio implica la aplicación de un conjunto especializado de técnicas.
 
-\textbf{Mar de Labrador}
+### Mar de Labrador
 
 El Mar de Labrador, ubicado en el océano Atlántico Norte, se sitúa entre la península canadiense de Labrador y la isla danesa de Groenlandia. Con una profundidad de aproximadamente 3 kilómetros, se encuentra completamente rodeado por masas continentales en todos sus límites. Su conexión hacia el norte se establece a través del estrecho de Davis, vinculándolo con las aguas de la bahía de Baffin.
 
-\textbf{Cabo Farewell}
+### Cabo Farewell
 
 El Cabo Farewell se erige majestuosamente en la costa sur de la isla de Egger, en Groenlandia, marcando el punto más meridional de esta impresionante isla. Se proyecta con determinación hacia el mar en la confluencia entre el océano Atlántico Norte y el mar del Labrador. Su posición geográfica coincide con la misma latitud que ciudades tan notables como Estocolmo y las islas Orcadas. Egger, junto con sus islas menores adyacentes, da forma a lo que se conoce como el archipiélago Farewell.
 
-\textbf{Groenlandia}
+### Groenlandia
 
 Groenlandia, ubicada en la zona nororiental de América del Norte, es una isla extensa entre el océano Atlántico y el océano Glacial Ártico. Políticamente constituida como una nación constituyente del Reino de Dinamarca, ha mantenido vínculos políticos y culturales con Europa Septentrional durante más de un milenio. Con una extensión de 2,175,600 $km^{2}$, se la considera la isla más grande del mundo, excluyendo la definición de Australia como masa continental.
 
-\textbf{Estrecho de Davis}
+### Estrecho de Davis
 
 El estrecho de Davis se presenta como una impresionante vía marítima, extendiéndose entre la pintoresca costa occidental de Groenlandia y la majestuosa costa oriental de la isla de Baffin, la más grande del archipiélago ártico canadiense.
 
@@ -275,9 +273,9 @@ La corriente marina fría del Labrador se desplaza con gracia a través del Estr
 
 
 
-\chapter{Experimentos y resultados}
+## Experimentos y resultados
 
-\section{NEMO}
+### NEMO
 
 El "Núcleo para la modelización europea del océano" (NEMO) representa un avanzado marco de modelización que se emplea en diversas actividades de investigación y servicios de predicción en los campos de ciencias oceánicas y climáticas. Este sistema innovador es fruto de la colaboración de un consorcio europeo, cuyo propósito es asegurar la confiabilidad y sostenibilidad a largo plazo de NEMO. Su desarrollo se centra en proporcionar herramientas precisas y eficientes para entender y prever los fenómenos oceánicos y climáticos, contribuyendo así al avance del conocimiento científico.
 
@@ -299,15 +297,14 @@ Para cada uno de los trabajos se tuvo en cuenta los experimentos ANHA4-ELGISF003
 
 
 
-\section{Experimentos}
-
-\subsection{Primer Trabajo}
+### Experimentos
+### Primer Trabajo
 
 Trazar los campos de salinidad y temperatura para el experimento ANHA-ELGISF003, para: verano (junio - septiembre) de cada año (2002 - 2017), para el Mar de Labrador en la parte occidental. Donde las ejecuciones fueron en los niveles: 0 - 50 m.\\
 
 Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ para los valores de longitud = $[-70, -20]$ y latitud = $[45, 70]$, siendo la parte occidental del Mar Labrador. Se extraen los valores de temperatura y salinidad de los archivos de extension NC, $[dataF\_1,CEXP\_1,'\_',timeTag,'\_gridT.nc']$ con variables $'votemper'$ y $'vosaline'$. Posteriormente se promedia el valor de cada capa entre 0 y 50m para el periodo de verano desde 2002 a 2017. Vease el codigo en  \ref{Anexo_1}.
 
-\subsection{Segundo Trabajo}
+### Segundo Trabajo
 
 Trazar las secciones transversales de salinidad y temperatura a lo largo de la corriente de Groenlandia occidental, que se extiende hasta el mar de Labrador, para cada uno de los experimentos, para: verano (junio-septiembre) de cada año(2002 - 2017). Donde la ejecución se realizó en el nivel 0 - 6000m.\\
 
@@ -321,15 +318,15 @@ Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ con dominio vertical = 
 \end{figure}
 
 
-\subsection{Tercer Trabajo}
+### Tercer Trabajo
 
 Realizar una serie temporal de la temperatura y la salinidad integradas para la parte oeste de Groenlandia, entre el cabo Farewell y el estrecho de Davis, y cerca de la costa a 300 m de profundidad, para cada una de las dos ejecuciones: para cada mes del año (2002 - 2017).\\ 
 
 Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05'$ con una profundidad de 300 m extrayéndose los valores de temperatura y salinidad para cada mes desde el año 2002 al 2017. Vease el codigo en  \ref{Anexo_3}.\\
 
-\section{Resultados}
+### Resultados
 
-\subsection{Primer Trabajo}
+### Primer Trabajo
 
 \begin{figure}[h!]
     \centering
@@ -389,7 +386,7 @@ Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05
 
 %\vspace{5cm}
 
-\subsection{Segundo y Tercer Trabajo}
+### Segundo y Tercer Trabajo
 
 \begin{figure}[h!]
     \centering
@@ -421,7 +418,7 @@ Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05
 
 \vspace{5cm}
 
-\subsection{Tercer Trabajo}
+### Tercer Trabajo
 
 \begin{figure}[h!]
     \centering
