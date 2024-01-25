@@ -17,6 +17,14 @@ En el presente trabajo se utilizo la configuración ANHA, que corresponde a la c
 
 La configuración ANHA posee una resolución de 1/4 de grado, denominada ANHA4. Esta resolución específica es crucial para nuestras investigaciones, ya que nos permite alcanzar nuestros objetivos con mayor precisión y utilizando menos recursos computacionales. La elección de esta resolución específica está respaldada por la necesidad de equilibrar la representación detallada de fenómenos oceanográficos cruciales con la eficiencia en el procesamiento de datos.
 
+
+![grid](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/grid.jpeg)
+
+
+
+
+
+
 \begin{figure}[h!]
     \centering
     \includegraphics[scale = 0.45]{imagenes/grid.jpeg}
