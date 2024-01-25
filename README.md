@@ -276,11 +276,8 @@ Trazar las secciones transversales de salinidad y temperatura a lo largo de la c
 
 Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ con dominio vertical = $[0 \hspace{0.3cm} 75], [0 \hspace{0.3cm} 1]$, calculándose el valor temperatura y salinidad de cada capa entre 0 - 6000m para el periodo de verano desde 2002 a 2017. Vease el codigo en  \ref{Anexo_2}.
 
-
 ![level_pre](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/level_pre.jpeg)
 Niveles de profundidad en ANHA4.
-
-
 
 ### Tercer Trabajo
 
@@ -292,15 +289,11 @@ Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05
 
 ### Primer Trabajo
 
-
 ![S6](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S6.png)
 Salinidad promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
 ![T6](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T6.png)
 Temperatura promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
-
-
-
 
 ![S7](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S7.png)
 Salinidad promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
@@ -308,94 +301,39 @@ Salinidad promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una
 ![T7](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T7.png)
 Temperatura promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
-
 ![S8](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S8.png)
 Salinidad promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
 ![T8](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T8.png)
 Temperatura promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
+![S9](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S9.png)
+Salinidad promedio del mes de Septiembre en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
-
-
-
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/S9}
-    \caption{Salinidad promedio del mes de Septiembre en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{S9}
-\end{figure}
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.3]{imagenes/T9}
-    \caption{Temperatura promedio del mes de Septiembre en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{T9}
-\end{figure}
-
-%\vspace{5cm}
+![T9](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T9.png)
+Temperatura promedio del mes de Septiembre en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
 ### Segundo y Tercer Trabajo
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/deepth_S_03.png}
-    \caption{Gráfica de profundidad vs Salinidad en el experimento ANHA4-ELGISF003 para el periodo de verano entre los años 2002 - 2017.}
-    \label{deepth_S_03}
-\end{figure}
+![deepth_S_03](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/deepth_S_03.png)
+Gráfica de profundidad vs Salinidad en el experimento ANHA4-ELGISF003 para el periodo de verano entre los años 2002 - 2017.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/deepth_T_03.png}
-    \caption{Gráfica de profundidad vs Temperatura en el experimento ANHA4-ELGISF003 para el periodo de verano entre los años 2002 - 2017.}
-    \label{deepth_T_03}
-\end{figure}
+![deepth_T_03](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/deepth_T_03.png)
+Gráfica de profundidad vs Temperatura en el experimento ANHA4-ELGISF003 para el periodo de verano entre los años 2002 - 2017.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/deepth_S_19.png}
-    \caption{Gráfica de profundidad vs Salinidad en el experimento ANHA4-ELG019 para el periodo de verano entre los años 2002 - 2017.}
-    \label{deepth_S_19}
-\end{figure}
+![deepth_S_03](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/deepth_S_19.png)
+Gráfica de profundidad vs Salinidad en el experimento ANHA4-ELG019 para el periodo de verano entre los años 2002 - 2017.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/deeth_T_19.png}
-    \caption{Gráfica de profundidad vs Temperatura en el experimento ANHA4-ELG019 para el periodo de verano entre los años 2002 - 2017.}
-    \label{deepth_T_19}
-\end{figure}
-
-\vspace{5cm}
+![deepth_T_03](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/deepth_T_19.png)
+Gráfica de profundidad vs Temperatura en el experimento ANHA4-ELG019 para el periodo de verano entre los años 2002 - 2017.
 
 ### Tercer Trabajo
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/ST_Salinity.png}
-    \caption{Gráfica de Series de Tiempo para la Salinidad de  todos los meses del año para el periodo 2002 - 2017.}
-    \label{ST_Salinity}
-\end{figure}
+![ST_Salinity](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/ST_Salinity.png)
+Gráfica de Series de Tiempo para la Salinidad de  todos los meses del año para el periodo 2002 - 2017.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/ST_Temperature.png}
-    \caption{Gráfica de Series de Tiempo para la Temperatura de  todos los meses del año para el periodo 2002 - 2017.}
-    \label{ST_Temperature}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
+![ST_Temperature](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/ST_Temperature.png)
+Gráfica de Series de Tiempo para la Temperatura de  todos los meses del año para el periodo 2002 - 2017.
 
 
 
