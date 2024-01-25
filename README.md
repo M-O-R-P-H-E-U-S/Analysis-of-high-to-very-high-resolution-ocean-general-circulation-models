@@ -300,33 +300,25 @@ Salinidad promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una
 Temperatura promedio del mes de Junio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/S7}
-    \caption{Salinidad promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{S7}
-\end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.3]{imagenes/T7}
-    \caption{Temperatura promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{T7}
-\end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.38]{imagenes/S8}
-    \caption{Salinidad promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{S8}
-\end{figure}
+![S7](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S7.png)
+Salinidad promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[scale = 0.29]{imagenes/T8}
-    \caption{Temperatura promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.}
-    \label{T8}
-\end{figure}
+![T7](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T7.png)
+Temperatura promedio del mes de Julio en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
+
+
+![S8](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/S8.png)
+Salinidad promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
+
+![T8](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/T8.png)
+Temperatura promedio del mes de Agosto en el intervalo de tiempo 2002 - 2017, a una profundidad de 0 - 50m.
+
+
+
+
+
 
 \begin{figure}[h!]
     \centering
