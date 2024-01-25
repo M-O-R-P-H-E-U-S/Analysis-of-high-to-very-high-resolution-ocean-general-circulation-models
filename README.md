@@ -136,11 +136,11 @@ Latitudes y longitudes sobre un mapa mundi.
 
 ### Corrientes marinas
 
-Las corrientes oceánicas, también conocidas como corrientes marinas, constituyen el movimiento de las aguas en los océanos y, en menor medida, en mares más extensos. Su origen se atribuye a diversas causas, destacando el efecto del movimiento de rotación terrestre, que incide de manera distinta en el fondo oceánico y en la superficie.\\
+Las corrientes oceánicas, también conocidas como corrientes marinas, constituyen el movimiento de las aguas en los océanos y, en menor medida, en mares más extensos. Su origen se atribuye a diversas causas, destacando el efecto del movimiento de rotación terrestre, que incide de manera distinta en el fondo oceánico y en la superficie.
 
-En términos generales, el concepto de corrientes marinas se aplica al movimiento superficial de las aguas en los océanos y mares, como se representa en los mapas de corrientes. Contrariamente, las corrientes submarinas se consideran movimientos de compensación de las corrientes superficiales. Este fenómeno implica que, mientras en la superficie las aguas pueden desplazarse de este a oeste en la zona intertropical debido a la inercia ocasionada por el movimiento de rotación terrestre, en el fondo del océano, las aguas seguirán ese movimiento de rotación de oeste a este.\\
+En términos generales, el concepto de corrientes marinas se aplica al movimiento superficial de las aguas en los océanos y mares, como se representa en los mapas de corrientes. Contrariamente, las corrientes submarinas se consideran movimientos de compensación de las corrientes superficiales. Este fenómeno implica que, mientras en la superficie las aguas pueden desplazarse de este a oeste en la zona intertropical debido a la inercia ocasionada por el movimiento de rotación terrestre, en el fondo del océano, las aguas seguirán ese movimiento de rotación de oeste a este.
 
-La compensación no solo ocurre entre la superficie y el fondo submarino, sino también en la propia superficie. Ver figura: \ref{corrientes_marinas}
+La compensación no solo ocurre entre la superficie y el fondo submarino, sino también en la propia superficie.
 
 ![corrientes](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/corrientes.jpeg)
 
@@ -191,23 +191,23 @@ Núcleo para la modelización europea del océano.
 
 Para cada uno de los trabajos se tuvo en cuenta los experimentos ANHA4-ELGISF003 y ANHA4-ELG019. Cuyos datos fueron recogidos desde el servidor SSH de wessex.
 
-1. I: Un experimento de control con derretimiento de Groenlandia agregado en la superficie.\\
+1. I: Un experimento de control con derretimiento de Groenlandia agregado en la superficie.
     /mnt/storage6/myers/NEMO/ANHA4-ELG019
-2. II: Un experimento con un porcentaje de la escorrentía de Groenlandia añadido en profundidad.\\
+2. II: Un experimento con un porcentaje de la escorrentía de Groenlandia añadido en profundidad.
     /mnt/storage6/myers/NEMO/ANHA4-ELGISF003
 
 ### Experimentos
 ### Primer Trabajo
 
-Trazar los campos de salinidad y temperatura para el experimento ANHA-ELGISF003, para: verano (junio - septiembre) de cada año (2002 - 2017), para el Mar de Labrador en la parte occidental. Donde las ejecuciones fueron en los niveles: 0 - 50 m.\\
+Trazar los campos de salinidad y temperatura para el experimento ANHA-ELGISF003, para: verano (junio - septiembre) de cada año (2002 - 2017), para el Mar de Labrador en la parte occidental. Donde las ejecuciones fueron en los niveles: 0 - 50 m.
 
-Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ para los valores de longitud = $[-70, -20]$ y latitud = $[45, 70]$, siendo la parte occidental del Mar Labrador. Se extraen los valores de temperatura y salinidad de los archivos de extension NC, $[dataF\_1,CEXP\_1,'\_',timeTag,'\_gridT.nc']$ con variables $'votemper'$ y $'vosaline'$. Posteriormente se promedia el valor de cada capa entre 0 y 50m para el periodo de verano desde 2002 a 2017. Vease el codigo en  \ref{Anexo_1}.
+Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ para los valores de longitud = $[-70, -20]$ y latitud = $[45, 70]$, siendo la parte occidental del Mar Labrador. Se extraen los valores de temperatura y salinidad de los archivos de extension NC, $[dataF\_1,CEXP\_1,'\_',timeTag,'\_gridT.nc']$ con variables $'votemper'$ y $'vosaline'$. Posteriormente se promedia el valor de cada capa entre 0 y 50m para el periodo de verano desde 2002 a 2017.
 
 ### Segundo Trabajo
 
-Trazar las secciones transversales de salinidad y temperatura a lo largo de la corriente de Groenlandia occidental, que se extiende hasta el mar de Labrador, para cada uno de los experimentos, para: verano (junio-septiembre) de cada año(2002 - 2017). Donde la ejecución se realizó en el nivel 0 - 6000m.\\
+Trazar las secciones transversales de salinidad y temperatura a lo largo de la corriente de Groenlandia occidental, que se extiende hasta el mar de Labrador, para cada uno de los experimentos, para: verano (junio-septiembre) de cada año(2002 - 2017). Donde la ejecución se realizó en el nivel 0 - 6000m.
 
-Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ con dominio vertical = $[0 \hspace{0.3cm} 75], [0 \hspace{0.3cm} 1]$, calculándose el valor temperatura y salinidad de cada capa entre 0 - 6000m para el periodo de verano desde 2002 a 2017. Vease el codigo en  \ref{Anexo_2}.
+Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ con dominio vertical = $[0 \hspace{0.3cm} 75], [0 \hspace{0.3cm} 1]$, calculándose el valor temperatura y salinidad de cada capa entre 0 - 6000m para el periodo de verano desde 2002 a 2017.
 
 ![level_pre](https://github.com/M-O-R-P-H-E-U-S/Analysis-of-high-to-very-high-resolution-ocean-general-circulation-models/blob/main/level_pre.jpeg)
 Niveles de profundidad en ANHA4.
@@ -216,7 +216,7 @@ Niveles de profundidad en ANHA4.
 
 Realizar una serie temporal de la temperatura y la salinidad integradas para la parte oeste de Groenlandia, entre el cabo Farewell y el estrecho de Davis, y cerca de la costa a 300 m de profundidad, para cada una de las dos ejecuciones: para cada mes del año (2002 - 2017).\\ 
 
-Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05'$ con una profundidad de 300 m extrayéndose los valores de temperatura y salinidad para cada mes desde el año 2002 al 2017. Vease el codigo en  \ref{Anexo_3}.\\
+Se resuelve la malla $"ANHA4 \_ mesh \_ mask \_ L75.nc"$ en la regionStr=$'TRC05'$ con una profundidad de 300 m extrayéndose los valores de temperatura y salinidad para cada mes desde el año 2002 al 2017.
 
 ### Resultados
 
