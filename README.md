@@ -77,9 +77,8 @@ La salinidad, medida en gramos por kilogramo de agua de mar, indica la cantidad 
 
 En términos simples, la salinidad se define como la masa total de material disuelto en una unidad de masa de agua de mar.
 
-\begin{equation*}
-    V_{ad} = \dfrac{S_{ref} - S}{S_{ref}} V
-\end{equation*}
+
+V_{ad} = \dfrac{S_{ref} - S}{S_{ref}} V
 
  donde $S_{ref} = 34.8$
  
